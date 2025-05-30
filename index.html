@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Metatags para SEO -->
+    <title>Sala Vermelha Sempre Tranquila | Domine o Atendimento de Emergência</title>
+    <meta name="description" content="Aprenda a atender na Sala Vermelha com confiança. Curso online com casos reais, focado em Raciocínio Clínico, Prescrição Médica e Procedimentos Salvadores de Vida." />
+    <meta name="keywords" content="sala vermelha, emergência médica, curso médico, medicina de emergência, raciocínio clínico, procedimentos médicos, prescrição médica" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://salavermelhast.br/" />
+    <meta property="og:title" content="Sala Vermelha Sempre Tranquila | Domine a Emergência Médica" />
+    <meta property="og:description" content="Aprenda a atender na Sala Vermelha com confiança. Curso online com casos reais, focado em Raciocínio Clínico, Prescrição Médica e Procedimentos Salvadores de Vida." />
+    <meta property="og:image" content="https://salavermelhast.br/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://salavermelhast.br/" />
+    <meta property="twitter:title" content="Sala Vermelha Sempre Tranquila | Domine a Emergência Médica" />
+    <meta property="twitter:description" content="Aprenda a atender na Sala Vermelha com confiança. Curso online com casos reais, focado em Raciocínio Clínico, Prescrição Médica e Procedimentos Salvadores de Vida." />
+    <meta property="twitter:image" content="https://salavermelhast.br/twitter-image.jpg" />
+    
+    <!-- Fonte Google (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="/images/logo.webp" as="image" type="image/webp" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Z32W7ZDESC');
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "rjlmen2mzl");
+    </script>
+
+    <!-- Nemu Tracking -->
+    <script src="https://trackings.nemu.com.br/trackings/OxVyKz8wj1/script.js" async data-tracking-id="OxVyKz8wj1" crossorigin="anonymous"></script>
+
+    <!-- UTM Parameter Handler -->
+    <script>
+    var timer = setInterval(function () {
+      var pixelPattern = /nemu_.{10}/;
+    
+        clearInterval(timer);
+            var pixelTimer = setInterval(function () {
+              if (pixelPattern.test(document.location.search)) {
+                var params = new URLSearchParams(window.location.search);
+                var utm_source = params.get("utm_source");
+                var utm_campaign = params.get("utm_campaign");
+                var utm_medium = params.get("utm_medium");
+                var utm_content = params.get("utm_content");
+                
+
+                var inputTimer = setInterval(function () {
+                  var inputUtmSource = document.querySelector("input#form-field-utm_source");
+                  var inputUtmCampaign = document.querySelector("input#form-field-utm_campaign");
+                  var inputUtmMedium = document.querySelector("input#form-field-utm_medium");
+                  var inputUtmContent = document.querySelector("input#form-field-utm_content");
+
+                  if (inputUtmSource) {
+                    inputUtmSource.value = utm_source;
+                    inputUtmCampaign.value = utm_campaign
+                    inputUtmMedium.value = utm_medium
+                    inputUtmContent.value = utm_content
+                    clearInterval(inputTimer);
+                  }
+                }, 100);
+                clearInterval(pixelTimer);
+              }
+            }, 100);
+        
+      
+    }, 100);
+    </script>
+
+    <!-- PAGEVIEW TRACKING PARA N8N + META API -->
+    <script>
+    (function() {
+      'use strict';
+      
+      const WEBHOOK_URL = 'https://projetolm-n8n.8x0hqh.easypanel.host/webhook/pageview';
+      
+      // Função para capturar UTM parameters
+      function getUtmParams() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return {
+          utm_source: urlParams.get('utm_source') || '',
+          utm_campaign: urlParams.get('utm_campaign') || '',
+          utm_medium: urlParams.get('utm_medium') || '',
+          utm_content: urlParams.get('utm_content') || '',
+          utm_term: urlParams.get('utm_term') || ''
+        };
+      }
+      
+      // Função para gerar ID único
+      function generateId() {
+        return Date.now() + '_' + Math.random().toString(36).substring(2, 15);
+      }
+
+      // Função para obter ou gerar IP do cliente (simulado)
+      function getClientIP() {
+        // Para uso real, você precisaria de um serviço para detectar o IP
+        // Por enquanto, vamos usar um placeholder
+        return localStorage.getItem('client_ip') || '127.0.0.1';
+      }
+
+      // Função para obter Facebook Browser ID (fbp)
+      function getFbp() {
+        // Verificar se existe cookie _fbp
+        const fbpCookie = document.cookie.split('; ').find(row => row.startsWith('_fbp='));
+        if (fbpCookie) {
+          return fbpCookie.split('=')[1];
+        }
+        
+        // Se não existir, gerar um fbp
+        const fbp = 'fb.1.' + Date.now() + '.' + Math.random().toString().substring(2, 11);
+        document.cookie = '_fbp=' + fbp + '; path=/; max-age=' + (365 * 24 * 60 * 60);
+        return fbp;
+      }
+
+      // Função para obter Facebook Click ID (fbc)
+      function getFbc() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const fbclid = urlParams.get('fbclid');
+        
+        if (fbclid) {
+          const fbc = 'fb.1.' + Date.now() + '.' + fbclid;
+          document.cookie = '_fbc=' + fbc + '; path=/; max-age=' + (365 * 24 * 60 * 60);
+          return fbc;
+        }
+        
+        // Verificar se existe cookie _fbc
+        const fbcCookie = document.cookie.split('; ').find(row => row.startsWith('_fbc='));
+        if (fbcCookie) {
+          return fbcCookie.split('=')[1];
+        }
+        
+        return '';
+      }
+      
+      // Função para enviar pageview
+      function sendPageview() {
+        try {
+          const utmParams = getUtmParams();
+          const timestamp = Math.floor(Date.now() / 1000); // Unix timestamp
+          
+          const payload = {
+            // Dados básicos da página
+            url: window.location.href,
+            page_path: window.location.pathname,
+            page_title: document.title,
+            referrer: document.referrer || '',
+            
+            // IDs e timestamps
+            ip: getClientIP(),
+            ua: navigator.userAgent,
+            timestamp: timestamp,
+            session_id: sessionStorage.getItem('session_id') || generateId(),
+            
+            // Facebook pixels
+            fbp: getFbp(),
+            fbc: getFbc(),
+            
+            // UTM Parameters
+            ...utmParams,
+            
+            // Dados adicionais
+            language: navigator.language,
+            screen_resolution: screen.width + 'x' + screen.height,
+            viewport_size: window.innerWidth + 'x' + window.innerHeight,
+            domain: window.location.hostname,
+            
+            // Timestamp brasileiro formatado
+            timestamp_br: new Date().toLocaleString('pt-BR', {
+              timeZone: 'America/Sao_Paulo',
+              day: '2-digit',
+              month: '2-digit', 
+              year: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit'
+            })
+          };
+          
+          // Salvar session_id se não existir
+          if (!sessionStorage.getItem('session_id')) {
+            sessionStorage.setItem('session_id', payload.session_id);
+          }
+          
+          console.log('Enviando pageview para Meta API:', payload);
+          
+          // Enviar para n8n
+          fetch(WEBHOOK_URL, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(payload),
+            mode: 'cors'
+          }).then(response => {
+            if (response.ok) {
+              console.log('Pageview enviado com sucesso para n8n → Meta API');
+            } else {
+              console.error('Erro no envio do pageview:', response.status);
+            }
+          }).catch(error => {
+            console.error('Erro ao enviar pageview:', error);
+          });
+          
+        } catch (error) {
+          console.error('Erro no tracking:', error);
+        }
+      }
+      
+      // Função para detectar IP real do cliente (opcional)
+      function detectClientIP() {
+        fetch('https://api.ipify.org?format=json')
+          .then(response => response.json())
+          .then(data => {
+            localStorage.setItem('client_ip', data.ip);
+          })
+          .catch(error => {
+            console.log('Não foi possível detectar IP real, usando fallback');
+          });
+      }
+      
+      // Detectar IP real (opcional)
+      detectClientIP();
+      
+      // Enviar pageview quando a página carregar
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          setTimeout(sendPageview, 500);
+        });
+      } else {
+        setTimeout(sendPageview, 500);
+      }
+      
+      // Para SPAs React - detectar mudanças de rota
+      let currentUrl = window.location.href;
+      
+      // Override history methods
+      const originalPushState = history.pushState;
+      const originalReplaceState = history.replaceState;
+      
+      history.pushState = function(...args) {
+        originalPushState.apply(history, args);
+        setTimeout(sendPageview, 200);
+      };
+      
+      history.replaceState = function(...args) {
+        originalReplaceState.apply(history, args);
+        setTimeout(sendPageview, 200);
+      };
+      
+      // Detectar navegação com botões do browser
+      window.addEventListener('popstate', function() {
+        setTimeout(sendPageview, 200);
+      });
+      
+    })();
+    </script>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {
+            if(f.fbq)return;n=f.fbq=function(){
+                n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)
+            };
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+        }
+        (window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1064327147462690');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1064327147462690&ev=PageView&noscript=1"/>
+    </noscript>
+<!-- End Meta Pixel Code -->
+    
+    <!-- Noscript fallback -->
+    <noscript>
+      <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+        <h1>JavaScript Necessário</h1>
+        <p>Por favor, habilite o JavaScript para visualizar este site corretamente.</p>
+      </div>
+    </noscript>
+  </body>
+</html>
