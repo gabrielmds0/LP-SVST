@@ -11,7 +11,7 @@ const Pillars = () => {
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-black text-black mb-6 leading-tight tracking-tight">
               É assim que você vai ter <span className="text-red-600">confiança</span><br />
-              para atender na Sala Vermelha
+              para atender o Paciente Grave
             </h2>
             <div className="w-24 h-1 bg-red-600 mx-auto mb-8"></div>
             <h3 className="text-2xl md:text-3xl font-bold text-red-600 tracking-tight">

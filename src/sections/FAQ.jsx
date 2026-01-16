@@ -6,8 +6,8 @@ const FAQ = () => {
   
   const faqData = [
     {
-      question: "Para quem é indicado o curso Sala Vermelha Sempre Tranquila?",
-      answer: "O curso é ideal para estudantes de medicina do último ano, médicos recém-formados e profissionais com qualquer tempo de experiência que desejam se sentir mais seguros e preparados para atender pacientes graves na Sala Vermelha."
+      question: "Para quem é indicado a Formação Paciente Grave?",
+      answer: "O curso é ideal para estudantes de medicina do último ano, médicos recém-formados e profissionais com qualquer tempo de experiência que desejam se sentir mais seguros e preparados para atender pacientes graves."
     },
     {
       question: "Preciso ter experiência prévia em emergência para fazer o curso?",
@@ -58,7 +58,7 @@ const FAQ = () => {
             </h2>
             <div className="w-24 h-1 bg-red-600 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
-              Esclarecemos as principais dúvidas sobre o curso Sala Vermelha Sempre Tranquila
+              Esclarecemos as principais dúvidas sobre a Formação Paciente Grave
             </p>
           </div>
           

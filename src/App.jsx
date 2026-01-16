@@ -17,7 +17,8 @@ import FAQ from './sections/FAQ';
 import LeadCaptureModal from './components/LeadCaptureModal';
 import { useLeadModal } from './hooks/useLeadModal';
 import MobileCTA from './components/MobileCTA';
-///
+import { captureUtmParams } from './hooks/useTracking';
+
 
 function App() {
   const [showFloatingCTA, setShowFloatingCTA] = useState(false);
@@ -25,6 +26,9 @@ function App() {
   // Hook do modal de captura de leads
   const { isModalOpen, modalSource, closeModal, handleCTAClick } = useLeadModal();
   
+  useEffect(() => {
+    captureUtmParams();
+  }, []);
   // Mostrar o botão flutuante quando o usuário rolar além de certa altura
   useEffect(() => {
     const handleScroll = () => {
@@ -77,7 +81,7 @@ function App() {
           handleCTAClick={handleCTAClick}
         />
         
-        {/* Seção de Estatística/Impacto */}
+        {/* Seção de Estatísticas */}
         <Statistics 
           handleCTAClick={handleCTAClick}
         />
@@ -97,7 +101,7 @@ function App() {
           handleCTAClick={handleCTAClick}
         />
         
-        {/* Seção de Diferencial (Não é só mais um cursinho) */}
+        {/* Seção de Diferenciais */}
         <Differential 
           handleCTAClick={handleCTAClick}
         />
@@ -122,7 +126,7 @@ function App() {
           handleCTAClick={handleCTAClick}
         />
         
-        {/* Seção de Bônus Exclusivos */}
+        {/* Seção de Bônus */}
         <Bonuses 
           handleCTAClick={handleCTAClick}
         />

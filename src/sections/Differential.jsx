@@ -1,17 +1,13 @@
 import React from 'react';
 import { Check, Award, Users, Clock, Star, Shield, MessageCircle, Gift, Play, Monitor, BookOpen } from 'lucide-react';
-import Preview from "/images/course-platform-preview.jpg" ;
+import Preview from "/images/modulos.png" ;
 
 const Differential = () => {
   return (
     <section className="py-20 md:py-24 bg-black relative overflow-hidden">
       {/* Imagem de fundo sutil - ambiente de aprendizado */}
       <div className="absolute inset-0 opacity-8">
-        <img 
-          src="/images/online-learning-background.jpg" 
-          alt="Ambiente de aprendizado online"
-          className="w-full h-full object-cover"
-        />
+      
         <div className="absolute inset-0 bg-gradient-to-b from-black/95 via-black/90 to-black/95"></div>
       </div>
       
@@ -36,7 +32,7 @@ const Differential = () => {
             </h2>
             <div className="w-24 h-1 bg-red-600 mx-auto mb-8"></div>
             <p className="text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed">
-              Conheça os diferenciais que fazem do Sala Vermelha Sempre Tranquila único no Brasil
+              Conheça os diferenciais que fazem da Formação Paciente Grave único no Brasil
             </p>
           </div>
           
@@ -89,7 +85,7 @@ const Differential = () => {
               <p className="text-gray-300 text-sm font-medium">Módulos</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-6 text-center border border-gray-800">
-              <div className="text-3xl font-black text-red-600 mb-2">20h</div>
+              <div className="text-3xl font-black text-red-600 mb-2">+75h</div>
               <p className="text-gray-300 text-sm font-medium">Conteúdo</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-6 text-center border border-gray-800">

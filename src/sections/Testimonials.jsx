@@ -13,7 +13,7 @@ const Testimonials = () => {
               <Quote size={40} className="text-white" />
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight tracking-tight">
-              O que nossos alunos dizem sobre a <span className="text-red-600">Sala Vermelha</span>
+              O que nossos alunos dizem sobre a <span className="text-red-600">Formação Paciente Grave</span>
             </h2>
             <div className="w-24 h-1 bg-red-600 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">

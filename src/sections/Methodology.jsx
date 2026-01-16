@@ -147,30 +147,7 @@ const Methodology = () => {
             </div>
           </div>
           
-          {/* Citação premium */}
-          <div className="max-w-5xl mx-auto">
-            <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-12 text-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-black/10"></div>
-              <div className="relative z-10">
-                <div className="text-white/30 text-8xl font-black mb-8 leading-none">"</div>
-                <blockquote className="text-white text-2xl md:text-3xl font-medium leading-relaxed mb-10">
-                  Não ensinamos apenas <strong>o que fazer</strong>, mas <strong>como fazer na vida real</strong>, 
-                  com todas as suas complexidades e variáveis que não podem ser simuladas em manequins. 
-                  Esta é a diferença entre conhecer a teoria e <strong>dominar a prática</strong>.
-                </blockquote>
-                
-                <div className="flex items-center justify-center space-x-6">
-                  <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
-                    <Stethoscope size={24} className="text-white" />
-                  </div>
-                  <div className="text-left">
-                    <p className="text-white font-bold text-lg">Dr. Rafael Mendes</p>
-                    <p className="text-white/80 font-light">Coordenador do Curso</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           
         </div>
       </div>

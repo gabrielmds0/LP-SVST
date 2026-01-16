@@ -151,13 +151,7 @@ const Statistics = ({ handleCTAClick }) => {
                 
                 {/* Métricas principais com imagem */}
                 <div className="bg-white rounded-2xl p-10 border border-gray-100 relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-20 h-20 opacity-5">
-                    <img 
-                      src="/images/medical-monitor-icon.png" 
-                      alt="Monitor médico"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
+                  
                   <div className="space-y-8 relative z-10">
                     <div className="text-center border-b border-gray-100 pb-8">
                       <div className="text-6xl font-black text-red-600 mb-3 tracking-tight">100%</div>

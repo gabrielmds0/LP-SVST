@@ -1,7 +1,7 @@
 // Dados das perguntas frequentes
 const faqData = [
   {
-    title: "Quem pode fazer o curso Sala Vermelha Sempre Tranquila?",
+    title: "Quem pode fazer a Formação Paciente Grave?",
     content: "O curso é voltado para estudantes de medicina do último ano, médicos recém-formados e médicos com 3 anos ou mais de formação que desejam aprimorar suas habilidades no atendimento em Sala Vermelha. O conteúdo é especialmente valioso para quem atua ou pretende atuar em emergência, UTI e pronto-socorro."
   },
   {

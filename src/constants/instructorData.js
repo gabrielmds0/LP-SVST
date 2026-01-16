@@ -1,8 +1,8 @@
 // Dados dos instrutores do curso
 import Jose from "/images/jose-200x300.webp";
 import Weber from "/images/weber-200x300.webp";
-import Rodrigo from "/images/Rodrigo-Jasbick.webp";
-import Cleto from "/images/Rodrigo_.webp";
+import Rodrigo from "/images/jasbick.webp";
+import Cleto from "/images/cleto.webp";
 import Ian from "/images/ian.webp";
 export const instructors = [
   {

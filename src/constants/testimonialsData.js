@@ -4,7 +4,7 @@ export const testimonials = [
     id: 1,
     name: "Dr. Lucas Mendonça",
     role: "Médico recém-formado",
-    content: "O curso Sala Vermelha Sempre Tranquila mudou completamente minha confiança nos plantões. No meu primeiro mês de formado, consegui conduzir um caso de infarto com segurança graças aos protocolos que aprendi.",
+    content: "A Formação Paciente Grave mudou completamente minha confiança nos plantões. No meu primeiro mês de formado, consegui conduzir um caso de infarto com segurança graças aos protocolos que aprendi.",
     // Em produção, substituir por URLs reais
     videoUrl: "https://example.com/testimonial-1.mp4",
     //thumbnailUrl: "/images/placeholder-testimonial-1.jpg",

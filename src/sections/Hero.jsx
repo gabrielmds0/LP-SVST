@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Button from '../components/Button';
 import { CreditCard, Clock, Check, ArrowRight } from 'lucide-react';
-import Logo from '/images/logo.webp';
+import Logo from '/images/logo-pg.png';
 
 const Hero = ({ handleCTAClick }) => { 
 
@@ -78,7 +78,7 @@ const Hero = ({ handleCTAClick }) => {
           <div className="mb-8 md:mb-12">
             <img 
               src={Logo} 
-              alt="Sala Vermelha Sempre Tranquila"
+              alt="Formação Paciente Grave"
               className="h-20 md:h-24 w-auto mx-auto"
               loading="eager"
             />
@@ -86,65 +86,56 @@ const Hero = ({ handleCTAClick }) => {
           
           {/* Título principal melhorado */}
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-6 md:mb-8 leading-tight tracking-tight">
-            Esteja preparado para atender na{' '}
-            <span className="text-red-600 block sm:inline">Sala Vermelha</span>
+            Domine qualquer{' '}
+            <span className="text-red-600 block sm:inline">Paciente Grave</span>
           </h1>
           
           {/* Subtítulo unificado e mais impactante */}
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-10 md:mb-12 max-w-4xl leading-relaxed font-light">
-            Domine o <strong className="text-red-600 font-semibold">Raciocínio Clínico</strong>, 
+            Tenha confiança para fazer <strong className="text-red-600 font-semibold">Raciocínio Clínico</strong>, 
             a <strong className="text-red-600 font-semibold">Prescrição Médica</strong> e 
-            os <strong className="text-red-600 font-semibold">Procedimentos Salvadores de Vida</strong> 
-            para atuar com confiança na emergência médica.
+            os <strong className="text-red-600 font-semibold">Procedimentos Salvadores de Vida </strong> 
+            na emergência médica.
           </p>
           
-          {/* VÍDEO - ESTRUTURA MAIS LIMPA */}
-          <div className="w-full max-w-4xl mb-10 md:mb-12">
-            
-            {/* Usando dangerouslySetInnerHTML para evitar conflitos do React */}
-            <div 
-              dangerouslySetInnerHTML={{
-                __html: `
-                  <div id="vid_6751f108a1c14a78e83ad602" style="position: relative; width: 100%; padding: 52.734375% 0 0;">
-                    <img 
-                      id="thumb_6751f108a1c14a78e83ad602" 
-                      src="https://images.converteai.net/a7916126-1eb3-4f27-8f5d-42892188f754/players/6751f108a1c14a78e83ad602/thumbnail.jpg" 
-                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;" 
-                      alt="thumbnail"
-                    />
-                    <div 
-                      id="backdrop_6751f108a1c14a78e83ad602" 
-                      style="
-                        -webkit-backdrop-filter: blur(5px); 
-                        backdrop-filter: blur(5px); 
-                        position: absolute; 
-                        top: 0; 
-                        height: 100%; 
-                        width: 100%;
-                      "
-                    ></div>
-                  </div>
-                `
-              }}
-            />
-            
-          </div>
+          {/* VÍDEO - YouTube embed mantendo estética */}
+<div className="w-full max-w-4xl mb-10 md:mb-12">
+  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%" }}>
+    <iframe
+      src="https://www.youtube.com/embed/a-2gIxzUkTM?si=IbLv5X2vCmacbioU"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        borderRadius: "12px",
+        overflow: "hidden"
+      }}
+    />
+  </div>
+</div>
+
           
           {/* CTA com animação de batimento cardíaco */}
           <div className="mb-12 md:mb-16 w-full max-w-md">
-            <style jsx>{`
-              @keyframes heartbeat {
-                0% { transform: scale(1); }
-                50% { transform: scale(1.05); }
-                100% { transform: scale(1); }
-              }
-              .heartbeat {
-                animation: heartbeat 2s ease-in-out infinite;
-              }
-              .heartbeat:hover {
-                animation: heartbeat 0.8s ease-in-out infinite;
-              }
-            `}</style>
+           <style>{`
+  @keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  .heartbeat {
+    animation: heartbeat 2s ease-in-out infinite;
+  }
+  .heartbeat:hover {
+    animation: heartbeat 0.8s ease-in-out infinite;
+  }
+`}</style>
             
             <Button 
              onClick={(e) => handleCTAClick(e, 'Hero CTA')}
@@ -200,7 +191,7 @@ const Hero = ({ handleCTAClick }) => {
       </div>
       
       {/* CSS do Elementor */}
-      <style jsx>{`
+      <style>{`
         .elementor-element:has(#smartplayer) {
           width: 100%;
         }

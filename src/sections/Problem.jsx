@@ -28,48 +28,14 @@ const Problem = ({ handleCTAClick }) => {  return (
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
               A faculdade <span className="text-red-600">não te preparou</span><br />
-              para a Sala Vermelha
+              para atender o paciente grave na vida real
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               A realidade do atendimento de emergência é drasticamente diferente da teoria acadêmica
             </p>
           </div>
           
-          {/* Seção split com imagem central */}
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <div className="rounded-2xl overflow-hidden border-2 border-red-600/20 shadow-2xl">
-                <img 
-                  src={StressedDoctor}
-                  alt="Médico sob pressão na emergência"
-                  className="w-full h-80 object-cover grayscale hover:grayscale-0 transition-all duration-500"
-                />
-              </div>
-            </div>
-            <div>
-              <h3 className="text-3xl font-bold text-white mb-6">
-                A realidade que <span className="text-red-600">ninguém te contou</span>
-              </h3>
-              <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Médicos recém-formados enfrentam situações para as quais não foram preparados. 
-                O desespero e a insegurança são mais comuns do que você imagina.
-              </p>
-              <div className="space-y-3">
-                <div className="flex items-center text-gray-300">
-                  <div className="w-2 h-2 bg-red-600 rounded-full mr-3"></div>
-                  <span>Decisões de vida ou morte em segundos</span>
-                </div>
-                <div className="flex items-center text-gray-300">
-                  <div className="w-2 h-2 bg-red-600 rounded-full mr-3"></div>
-                  <span>Pressão extrema e responsabilidade total</span>
-                </div>
-                <div className="flex items-center text-gray-300">
-                  <div className="w-2 h-2 bg-red-600 rounded-full mr-3"></div>
-                  <span>Zero margin de erro permitido</span>
-                </div>
-              </div>
-            </div>
-          </div>
+      
           
           {/* Grid de problemas */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -214,7 +180,7 @@ const Problem = ({ handleCTAClick }) => {  return (
               </h3>
               
               <p className="text-lg md:text-xl text-white leading-relaxed mb-6 font-light">
-                É por isso que criamos o curso <strong className="font-semibold">Sala Vermelha Sempre Tranquila</strong>, 
+                É por isso que criamos o curso <strong className="font-semibold">Formação Paciente Grave</strong>, 
                 para preencher essa lacuna e te dar o preparo prático que a faculdade não ofereceu.
               </p>
               

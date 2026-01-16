@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(), // Adicione o plugin do Tailwind aqui
   ],
-   base: '/app/', // Importante: define o caminho base
+   base: '/formacao-paciente-grave/', // Importante: define o caminho base
   build: {
     outDir: 'dist',
     assetsDir: 'assets'

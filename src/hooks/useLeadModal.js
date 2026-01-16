@@ -13,11 +13,11 @@ export const useLeadModal = () => {
     setIsModalOpen(false);
   };
 
-  // Função para ser usada nos CTAs
-  const handleCTAClick = (e, source = 'CTA') => {
-    e.preventDefault();
+ const handleCTAClick = (e, source = 'CTA') => {
+  e.preventDefault();
+  // Redireciona direto para o checkout
     openModal(source);
-  };
+};
 
   return {
     isModalOpen,

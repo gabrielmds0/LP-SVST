@@ -10,7 +10,7 @@ const TargetAudience = () => {
           {/* Título melhorado */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Para quem é o curso <span className="text-red-600">Sala Vermelha Sempre Tranquila</span>
+              Para quem é o curso <span className="text-red-600">Formação Paciente Grave</span>
             </h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto">
               Desenvolvido especificamente para profissionais que buscam excelência no atendimento de emergência
@@ -54,7 +54,7 @@ const TargetAudience = () => {
                 </div>
                 <h3 className="font-bold text-lg text-black mb-3 leading-tight">Médicos experientes</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  3+ anos que querem aprimorar habilidades em Sala Vermelha
+                  3+ anos que querem aprimorar habilidades em atendimento de emergência
                 </p>
               </div>
             </div>
